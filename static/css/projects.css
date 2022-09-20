@@ -1,0 +1,155 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+\body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+} */
+
+
+.projects-box{
+    background: linear-gradient(0deg,#0a182e,#1b1d25);
+    padding-top: 130px;
+    padding-bottom: 90px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+ }
+ 
+
+.projects-box .main{
+  max-width: 1200px;
+  margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  margin-top: 80px;
+}
+
+/* h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+} */
+
+.projects-box img {
+  height: 30vh;
+  opacity: 0.8;
+  width: 100%;
+  vertical-align: middle;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.projects-box .card:hover img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    opacity: 1;
+  }
+
+.projects-box .btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.projects-box .btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.projects-box .cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-box .cards_item {
+  display: flex;
+  padding: 1rem;
+  height: 100%;
+}
+
+@media (min-width: 40rem) {
+    .projects-box .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+    .projects-box .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.projects-box .card {
+    background-color: transparent;
+    border-radius: 2px;
+    box-shadow: 0 20px 40px -14px rgb(0 0 0 / 25%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: none;
+
+}
+
+.projects-box .card_content {
+  padding: 1rem;
+  background: transparent;
+  /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
+}
+
+.projects-box .card_title {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.projects-box .card_text {
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 6px;    
+  font-weight: 400;
+}
+
+.projects-box .card-caption{
+    color: var(--theme-gray);
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 0px;    
+    font-weight: 600;
+}
+
+/*------Animations--------*/
+/* .projects-box .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}*/

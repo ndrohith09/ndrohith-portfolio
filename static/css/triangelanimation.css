@@ -1,0 +1,98 @@
+/*----Bg Shapes Animation----*/
+
+.shape img{
+	position: absolute;
+	width: 100%;
+	/* z-index: -9; */
+}
+.shape .shape1{
+	right: -160px;
+	top: -50px;
+	width: 450px;
+	opacity: .5;
+	transform-origin: center;
+	animation: shape linear 30s infinite reverse;
+}
+.shape .shape2{
+	left: -97px;
+    bottom: 101px;
+    width: 450px;
+    opacity: .5;
+    transform-origin: center;
+    animation: shape linear 30s infinite reverse;
+}
+@keyframes shape{
+	100%{
+		transform:  rotate(360deg);
+	}
+}
+
+.shape .shape3{
+	top: 0;
+	left: 0;
+	width: 250px;
+	opacity: .4;
+	transform-origin: center;
+	animation: shape3 linear 20s infinite;
+	transform: translate(-200px, -100px) rotate(0deg);
+}
+@keyframes shape3{
+	100%{
+		transform: translate(1300px, 600px) rotate(360deg);
+	}	
+}
+
+.shape .shape4{
+	left: 0;
+	bottom: 0;
+	width: 150px;
+	opacity: .4;
+	transform-origin: center;
+	animation: shape4 linear 20s infinite 5s;
+	transform: translate(700px, 80px) rotate(0deg);
+}
+@keyframes shape4{
+	100%{
+		transform: translate(1200px, -800px) rotate(360deg);
+	}
+}
+
+.shape .shape5{
+	left: 500px;
+	top: 0;
+	width: 100px;
+	opacity: 0;
+	transform-origin: center;
+	animation: shape5 linear 25s infinite;
+	transform: translate(0, -150px) rotate(0deg);
+}
+@keyframes shape5{
+	100%{
+		opacity: 1;
+		transform: translate(0, 800px) rotate(720deg);
+	}
+}
+
+
+
+  .frame {
+	width: 90%;
+	margin: 40px auto;
+	text-align: center;
+  }
+  .custom-btn {
+	height: 50px;
+	border-radius: 5px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+	 7px 7px 20px 0px rgba(0,0,0,.1),
+	 4px 4px 5px 0px rgba(0,0,0,.1);
+	outline: none;
+  }
+  
